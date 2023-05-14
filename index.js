@@ -17,15 +17,17 @@ const customCredentialProvider = ({ localDevelopment, debug, performance }) => {
       if (performance) console.log('CredentialProvider | fromInstanceMetadata | Took %sms', new Date().getTime() - start)
     }
 
-    try {
-      // Try getting credentials from the process using the default provider chain
-      if (debug) console.log('CredentialProvider | fromProcess')
-      credentials = await fromProcess()();
-    } 
-    catch (e) {
-      if (debug) console.log('CredentialProvider | fromProcess | %s', e?.message)
+    if (!credentials) {
+      try {
+        // Try getting credentials from the process using the default provider chain
+        if (debug) console.log('CredentialProvider | fromProcess')
+        credentials = await fromProcess()();
+      } 
+      catch (e) {
+        if (debug) console.log('CredentialProvider | fromProcess | %s', e?.message)
+      }
+      if (performance) console.log('CredentialProvider | fromProcess | Took %sms', new Date().getTime() - start)
     }
-    if (performance) console.log('CredentialProvider | fromProcess | Took %sms', new Date().getTime() - start)
 
     return credentials;
   }

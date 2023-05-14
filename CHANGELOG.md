@@ -1,3 +1,13 @@
+<a name="0.1.1"></a>
+
+## [0.1.1](https://github.com/admiralcloud/ac-aws-customcredentialprovider/compare/v0.1.0..v0.1.1) (2023-05-14 17:00:08)
+
+
+### Bug Fix
+
+* **App:** Add option to log performance per provider | MP | [4d2641f18def22ab400f624f2abc5b14323100e2](https://github.com/admiralcloud/ac-aws-customcredentialprovider/commit/4d2641f18def22ab400f624f2abc5b14323100e2)    
+User parameter performance to log processing time  
+Related issues: [/issues#undefined](https://github.com//issues/undefined)
 <a name="0.1.0"></a>
  
 # [0.1.0](https://github.com/admiralcloud/ac-aws-customcredentialprovider/compare/..v0.1.0) (2023-05-14 14:20:31)

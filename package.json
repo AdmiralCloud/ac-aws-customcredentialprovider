@@ -1,6 +1,6 @@
 {
   "name": "ac-aws-customcredentialprovider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Selected custom credential providers from AWS",
   "main": "index.js",
   "author": "Mark Poepping (www.admiralcloud.com)",

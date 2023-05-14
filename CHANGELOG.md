@@ -1,3 +1,13 @@
+<a name="0.1.2"></a>
+
+## [0.1.2](https://github.com/admiralcloud/ac-aws-customcredentialprovider/compare/v0.1.1..v0.1.2) (2023-05-14 17:16:55)
+
+
+### Bug Fix
+
+* **App:** End process if credentials are found | MP | [0e425f7a0204b426cf91af4a1b02990bfd9d50c4](https://github.com/admiralcloud/ac-aws-customcredentialprovider/commit/0e425f7a0204b426cf91af4a1b02990bfd9d50c4)    
+End process if credentials are found  
+Related issues: [/issues#undefined](https://github.com//issues/undefined)
 <a name="0.1.1"></a>
 
 ## [0.1.1](https://github.com/admiralcloud/ac-aws-customcredentialprovider/compare/v0.1.0..v0.1.1) (2023-05-14 17:00:08)

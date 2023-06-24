@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+
+## [0.1.3](https://github.com/admiralcloud/ac-aws-customcredentialprovider/compare/v0.1.2..v0.1.3) (2023-06-24 08:43:46)
+
+
+### Bug Fix
+
+* **App:** Package updates | MP | [499ca4e55d9982d7abdf19e98516af0b1b21937c](https://github.com/admiralcloud/ac-aws-customcredentialprovider/commit/499ca4e55d9982d7abdf19e98516af0b1b21937c)    
+Package updates  
+Related issues: [/issues#undefined](https://github.com//issues/undefined)
 <a name="0.1.2"></a>
 
 ## [0.1.2](https://github.com/admiralcloud/ac-aws-customcredentialprovider/compare/v0.1.1..v0.1.2) (2023-05-14 17:16:55)
